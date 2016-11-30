@@ -1,5 +1,3 @@
-package edu.ksu.mr.examples;
-
 // Import相關的Lib程式庫
 import org.apache.hadoop.conf.Configuration;
 import org.apache.hadoop.fs.Path;
