@@ -49,7 +49,7 @@ public class WordCount {
 
         @Override
         protected void map(Object key, Text value, Context context) throws IOException, InterruptedException {
-            // 以空格(/u0020)切割Text
+            // 以空白字元切割Text
             StringTokenizer tokenizer = new StringTokenizer(value.toString());
 
             // 將切割後的結果作Map運算
